@@ -1,0 +1,310 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+a{
+    text-decoration: none;}
+
+*{
+	box-sizing: border-box;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* code starts here  */
+
+.full-width{
+    width: 100%;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 1170px;
+}
+ /* top header starts here */
+
+.top-header{
+    height: 70px;
+    
+}
+
+.logo{
+	
+	height:70px;
+	width: 120px;
+	float: left;
+	margin-right: 60px;
+}
+
+.menu{
+	height:70px;
+	width: 801px;
+	float: left;
+	padding-left: 30px;
+	display: flex;
+	justify-content: flex-start;
+    flex-direction: row;
+	
+}
+
+.menu1{
+	
+	margin: 0 10px;
+	width: 146px;
+	height: 70px;
+	font-size: 22px;
+	
+}
+.menu1 li {
+	padding-top:20px ;
+}
+
+.menu2{
+
+	margin: 0 10px;
+	width: 210px;
+	height: 70px;
+	font-size: 22px;
+	
+}
+
+.menu2 li {
+	padding-top:20px ;
+}
+
+.social{
+	height: 70px;
+	width: 150px;
+	background-color: antiquewhite;
+	float: left;
+	
+	
+}
+
+.insta{
+	
+	margin: 0 10px;
+	width: 55px;
+	height: 68px;
+
+	background-image: url(../images/icons.webp);
+	background-position: 619px 61px;
+
+}
+
+.facebook{
+	border:2px solid black;
+	width: 55px;
+	height: 70px;
+	font-size: 22px;
+	background-image: url(../images/icons.webp);
+	background-position: 619px 61px;/
+
+}
+
+
+/* background starts here */
+
+.background{
+	background-color: #27a8cf;
+	/* background-image: url(../images/main2.jpg); */
+    background-repeat: no-repeat;
+    margin: 0 auto ;
+	height: 650px;
+	
+}
+
+/* hatha yoga video */
+.video{
+    margin: 20px  250px;
+	padding-bottom: 20px ;
+	
+}
+
+.container4{
+
+    padding: 0 15px;
+    width: 1170px;
+
+}
+
+
+/* practices we teach */
+.practices{
+	height:990px;
+	
+	
+}
+
+.practices h1{
+	font-size: 60px;
+ font-family: 'Merriweather', serif;
+ padding: 14px 0 0 15px;
+}
+
+.container2{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    padding: 0 15px;
+    width: 1170px;
+}
+
+.heading{
+	width: 800px;
+	height: 100px;
+	background-color: rgb(235, 205, 165);
+	margin: 20px auto;
+	opacity: 0.9;
+}
+
+.box{
+	width: 340px;
+    height: 393px;
+    
+    margin: 15px 20px;
+	object-fit: cover;
+}
+
+
+.container3{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    padding: 0 15px;
+    width: 1170px;
+}
+
+.box2{
+	width: 349px;
+    height: 393px;
+	
+    margin: 25px 90px;
+	
+}
+
+
+
+/* .meditation types */
+.meditation{
+	height: 570px;
+	
+
+}
+
+.heading2{
+	width: 800px;
+	height: 100px;
+	background-color: rgb(235, 205, 165);
+	margin: 20px auto;
+	opacity: 0.9;
+}
+
+.heading2 h3{
+	font-size: 60px;
+ font-family: 'Merriweather', serif;
+ padding: 14px 0 0 78px;
+}
+.container7{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    padding: 0 15px;
+    width: 1170px;
+}
+
+.boxm{
+	width: 340px;
+    height: 393px;
+background-color: #3a4242;
+    margin: 15px 20px;
+	object-fit: cover;
+}
+/* form starts here */
+.form{
+	height: 400px;
+	
+    padding-top: 0px;
+	font-size: 23px;
+}
+
+.border{
+	border: 3px solid;
+	border-radius: 15px;
+	width:400px ;
+	margin: 0 auto;
+	padding-left: 10px;
+	background-color: rgb(235, 205, 165);
+}
+
+.form h5{
+	font-size: 30px;
+	padding-top: 5px;
+}
+
+.Registration{
+	
+	height: 70px;
+	width: 280px;
+	margin: 0 auto;
+
+}
+
+.fill-form{
+
+	height: 300px;
+	width: 400px;
+	margin: 0px auto;
+
+}
+
+
+/* maps is here  */
+.maps{
+height: 200px;
+
+}
+.location{
+	margin: 20px ;
+}
+
+
